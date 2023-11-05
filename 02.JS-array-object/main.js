@@ -108,19 +108,15 @@ let countries = [
 //}
 
 //#Baş hərfi ilə son hərfi A olan ölkələrin adını çap edən proqram yazırsınız.
-const lowerCase = [];
+
 for (let i = 0; i < countries.length; i++) {
-  lowerCase.push(countries[i].toLocaleLowerCase()[0]=="a");
+  let countryName=countries[i];
+  if(countryName[0]==="A" && countryName.slice(-1)==="a")
+  console.log(countryName);
 }
 
-console.log(lowerCase);
 
-// for (let i = 0; i < products.length; i++) {
-//   products[i].price > 50 &&
-//     products[i].category.toLocaleLowerCase()[0] == "c" &&
-//     filteredProducts.push(products[i]);
-// }
 
-// console.log("filteredProducts", filteredProducts);
+
 
 //-------------------------------------------------------------------------------------------------------
