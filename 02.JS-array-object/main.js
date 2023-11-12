@@ -109,14 +109,10 @@ let countries = [
 
 //#Baş hərfi ilə son hərfi A olan ölkələrin adını çap edən proqram yazırsınız.
 
-for (let i = 0; i < countries.length; i++) {
-  let countryName=countries[i];
-  if(countryName[0]==="A" && countryName.slice(-1)==="a")
-  console.log(countryName);
-}
-
-
-
-
+// for (let i = 0; i < countries.length; i++) {
+//   let countryName=countries[i];
+//   if(countryName[0]==="A" && countryName.slice(-1)==="a")
+//   console.log(countryName);
+// }
 
 //-------------------------------------------------------------------------------------------------------
