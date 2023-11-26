@@ -1,0 +1,54 @@
+section {
+  padding: auto;
+}
+.simple-calculator {
+  width: 30%;
+  margin: 30px auto;
+  background-color: chocolate;
+}
+button {
+  margin: 15px 25px;
+}
+.spanText {
+  background-color: black;
+  color: white;
+  text-align: right;
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  border-radius: 4px;
+}
+.spanText span {
+  padding-right: 3px;
+}
+.inputText {
+  padding: auto;
+}
+.inputText input {
+  height: 30px;
+  width: 42%;
+  margin: 10px auto;
+  padding: 0 auto;
+}
+.addition,
+.substract,
+.multiply,
+.division {
+  margin: 10px auto;
+  padding: 0 auto;
+  width: 90%;
+  height: 30px;
+  background-color: cadetblue;
+  border: none;
+}
+.reset {
+  width: 90%;
+  margin: 10px auto 40px auto;
+  height: 30px;
+  background-color: rgb(248, 83, 18);
+  border: none;
+  padding: 0 auto;
+}
+h3 {
+  text-align: center;
+}
