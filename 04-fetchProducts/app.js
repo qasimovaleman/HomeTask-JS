@@ -76,3 +76,13 @@ fetch(`${BASE_URL}/products`, {
 });
 
 allInputs.forEach((item) => (item.value = ""));
+//
+function addNewData(endpoint, obj) {
+  fetch(`${BASE_URL}/${endpoint}`, {
+    method: "POST",
+    headers: {
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify(obj),
+  });
+}
