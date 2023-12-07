@@ -47,6 +47,23 @@ form.addEventListener("submit", function (event) {
     images: allInputs[3].value,
   };
   console.log(obj);
+
+  fetch(`${BASE_URL}/products`, {
+    method: "POST",
+    headers: {
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify(obj),
+  }).then(() => {
+    fetch(`${BASE_URL}/products`)
+      .then((response) => response.json())
+      .then((data) => {
+        drawCards(data);
+      })
+      .catch((err) => console.log(err));
+  });
+
+  allInputs.forEach((item) => (item.value = ""));
 });
 //
 function deleteCustomer(id, btn) {
@@ -60,29 +77,14 @@ function deleteCustomer(id, btn) {
   }
 }
 //
-fetch(`${BASE_URL}/products`, {
-  method: "POST",
-  headers: {
-    "Content-type": "application/json",
-  },
-  body: JSON.stringify(obj),
-}).then(() => {
-  fetch(`${BASE_URL}/products`)
-    .then((response) => response.json())
-    .then((data) => {
-      drawCards(data);
-    })
-    .catch((err) => console.log(err));
-});
 
-allInputs.forEach((item) => (item.value = ""));
 //
-function addNewData(endpoint, obj) {
-  fetch(`${BASE_URL}/${endpoint}`, {
-    method: "POST",
-    headers: {
-      "Content-type": "application/json",
-    },
-    body: JSON.stringify(obj),
-  });
-}
+// function addNewData(endpoint, obj) {
+//   fetch(`${BASE_URL}/${endpoint}`, {
+//     method: "POST",
+//     headers: {
+//       "Content-type": "application/json",
+//     },
+//     body: JSON.stringify(obj),
+//   });
+// }
