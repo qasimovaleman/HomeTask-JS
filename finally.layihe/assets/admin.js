@@ -22,10 +22,11 @@ function drawTable(data) {
     <td>${element.description}</td>
     <td>${element.price}</td>
     <td>
-               <button class="btn btn-danger" onclick=deleteSupplier(${element.id},this)>DELETE</button>
-               <a class="btn btn-success" href="admin-form.html?id=${element.id}">EDIT</a>
+              
+              <button class="btn btn-danger" onclick=deleteSupplier(${element.id},this)>DELETE</button>
+              
     </td>
-    
+    <td><a class="btn btn-success" href="admin-form.html?id=${element.id}">EDIT</a></td>
     `;
     tBody.append(trElem);
   });

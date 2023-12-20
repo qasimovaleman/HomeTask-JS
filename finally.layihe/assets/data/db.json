@@ -25,8 +25,8 @@
       "id": 5,
       "name": "Mazus",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam voluptates quisquam ratione? Dolorum, eum?",
-      "price": 45,
-      "imageUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg"
+      "price": "45",
+      "imageUrl": "./assets/images/portr1.jpg"
     },
     {
       "id": 6,
