@@ -25,9 +25,7 @@ function drawCards(data) {
     const productPriceElement = document.createElement("p");
     productPriceElement.innerHTML = `Price: <b>$ ${element.price}</b>`;
 
-    //const productDescriptionElement = document.createElement("p");
-    //productDescriptionElement.textContent = element.description;
-
+    
     const productImageElement = document.createElement("img");
 
     productImageElement.src = element.imageUrl;

@@ -354,6 +354,11 @@ nav ul li a:hover {
 }
 
 .iconDiv {
+ 
+  display: none;
+}
+.teamCards:hover .iconDiv{
+  display: block;
   row-gap: 2rem;
   position: absolute;
   top: 20px;
@@ -386,6 +391,7 @@ nav ul li a:hover {
   font-weight: 600;
   padding: 0 20px;
   background-color: transparent;
+  border-radius: 4px;
 }
 
 .inputBtn {
@@ -401,7 +407,7 @@ nav ul li a:hover {
   height: 45px;
   color: #0c5b47;
 }
-.send:hover{
+.send:hover {
   background-color: #afcec5;
 }
 .logo {
@@ -453,6 +459,16 @@ footer {
 
   background-color: #e0ecdc;
 }
-.fa-heart{
+.fa-heart {
   color: red;
+}
+.sort {
+  height: 40px;
+  width: 60px;
+  border: none;
+  background-color: #50b198;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  color: #e7d7e2;
 }

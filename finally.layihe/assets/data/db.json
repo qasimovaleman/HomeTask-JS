@@ -1,13 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Dahlia",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam voluptates quisquam ratione? Dolorum, eum?",
-      "price": 45,
-      "imageUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg"
-    },
-    {
       "id": 2,
       "name": "Mazus",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam voluptates quisquam ratione? Dolorum, eum?",
@@ -16,24 +9,24 @@
     },
     {
       "id": 3,
-      "name": "Pansies",
+      "name": "SEMA",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam voluptates quisquam ratione? Dolorum, eum?",
-      "price": 45,
-      "imageUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg"
+      "price": "45",
+      "imageUrl": "./assets/images/fl1.jpg"
     },
     {
       "id": 4,
-      "name": "Dahlia",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam voluptates quisquam ratione? Dolorum, eum?",
-      "price": 45,
-      "imageUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg"
+      "name": "GULNUR",
+      "description": "ASGAROVA",
+      "price": "1905",
+      "imageUrl": "./assets/images/b2.jpg"
     },
     {
       "id": 5,
       "name": "Mazus",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam voluptates quisquam ratione? Dolorum, eum?",
-      "price": 45,
-      "imageUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg"
+      "price": "45",
+      "imageUrl": "./assets/images/portr1.jpg"
     },
     {
       "id": 6,
@@ -41,6 +34,13 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam voluptates quisquam ratione? Dolorum, eum?",
       "price": 45,
       "imageUrl": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg"
+    },
+    {
+      "name": "tgrt",
+      "description": "gtfr",
+      "price": "rfcx",
+      "imageUrl": "./assets/images/fl1.jpg",
+      "id": 7
     }
   ]
 }
