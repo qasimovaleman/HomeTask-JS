@@ -1,0 +1,9 @@
+font-family: 'Crimson Text', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Sarabun', sans-serif;
+font-family: 'Syne', sans-serif;

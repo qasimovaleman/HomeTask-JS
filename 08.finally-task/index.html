@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=EB+Garamond:ital,wght@1,400;1,600&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:ital@0;1&family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,500&family=Sacramento&family=Sarabun:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <!-- ---------------------------PART-1-------------------------- -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="headerLeft">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <div class="headerRight">
+            <button class="sponsor">Sponsor</button>
+            <button class="login">Login</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ---------------------------PART-2-------------------------- -->
+    <section>
+      <div class="container">
+        <div class="ban d-flex justify-content-between align-items-center p-3">
+          <div class="logo">A D O P T E D</div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Adoption</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Success Stories</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link disabled"
+                      href="#"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-3-------------------------- -->
+    <section id="banner">
+      <div class="container">
+        <div class="banner">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="container">
+              <!-- <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div> -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-item-conatiner">
+                    <div class="carousel-item-left">
+                      <h3 class="name">Celine Richardson,14 yrs.old</h3>
+                      <h3>NEEDS A CARING PARENTS</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br />
+                        Maiores itaque blanditiis modi iste eaque error nostrum
+                        <br />
+                        voluptates dignissimos? Perspiciatis, quasi.
+                      </p>
+                      <button>Adopt Her Now!</button>
+                    </div>
+                    <div class="carousel-item-right">
+                      <img src="" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-item-conatiner">
+                    <div class="carousel-item-left">
+                      <h3 class="name">Mark Rodriguez,12 yrs.old</h3>
+                      <h3>NEEDS A LOVING PARENTS</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br />
+                        Maiores itaque blanditiis modi iste eaque error nostrum
+                        <br />
+                        voluptates dignissimos? Perspiciatis, quasi.
+                      </p>
+                      <button>Adopt Him Now!</button>
+                    </div>
+                    <div class="carousel-item-right">
+                      <img src="" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-4-------------------------- -->
+    <section>
+      <div class="container">
+        <div class="textAccardion">
+          <div class="imgText">
+            <img src="./assets/images/download.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+              <br />
+              nemo et, esse laudantium consequatur. Eum soluta illum architecto
+              <br />
+              dolorum quae suscipit dignissimos! Saepe, amet explicabo nemo
+              <br />
+              eligendi totam sint repudiandae.
+            </p>
+            <button class="adoptChild">Adopt a child now</button>
+          </div>
+          <div class="accardionText">
+            <h3>Steps to adopt & foster a child</h3>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    1.Getting Started
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Aliquid velit, asperiores libero. Beatae vitae nostrum et
+                    <br />
+                    distinctio saepe autem quisquam cupiditate labore <br />
+                    voluptatum, eligendi ipsam atque assumenda odit, perferendis
+                    <br />
+                    dicta.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    2.Envisioning your family
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Velit quibusdam possimus dolor odio dicta ipsam deleniti
+                    <br />
+                    enim suscipit. Sed aperiam hic recusandae, perspiciatis
+                    <br />
+                    quibusdam numquam nisi dolorum nostrum porro explicabo.
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    3.Getting approved
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Velit quibusdam possimus dolor odio dicta ipsam deleniti
+                    <br />
+                    enim suscipit. Sed aperiam hic recusandae, perspiciatis
+                    <br />
+                    quibusdam numquam nisi dolorum nostrum porro explicabo.
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    4.Being matched with a child
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Velit quibusdam possimus dolor odio dicta ipsam deleniti
+                    <br />
+                    enim suscipit. Sed aperiam hic recusandae, perspiciatis
+                    <br />
+                    quibusdam numquam nisi dolorum nostrum porro explicabo.
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    5.Receiving a placement
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Velit quibusdam possimus dolor odio dicta ipsam deleniti
+                    <br />
+                    enim suscipit. Sed aperiam hic recusandae, perspiciatis
+                    <br />
+                    quibusdam numquam nisi dolorum nostrum porro explicabo.
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    6.Finilizing an adoption
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Velit quibusdam possimus dolor odio dicta ipsam deleniti
+                    <br />
+                    enim suscipit. Sed aperiam hic recusandae, perspiciatis
+                    <br />
+                    quibusdam numquam nisi dolorum nostrum porro explicabo.
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    7.State information
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Velit quibusdam possimus dolor odio dicta ipsam deleniti
+                    <br />
+                    enim suscipit. Sed aperiam hic recusandae, perspiciatis
+                    <br />
+                    quibusdam numquam nisi dolorum nostrum porro explicabo.
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-5-------------------------- -->
+    <section>
+      <div class="container">
+        <div class="photoChild">
+          <h2 class="text-center">WAITING CHILDREN</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+            unde impedit, <br />
+            necessitatibus, soluta sit quam minima expedita atque corrupti
+            reiciendis.
+          </p>
+          <div class="text-center">
+            <button>Find More Waiting Children</button>
+            <div class="productCards">
+              <nav>
+                <ul
+                  class="d-flex justify-content-center align-items-center gap-3"
+                >
+                  <li>
+                    <a href="./index.html" class="text-dark fw-bold">Home</a>
+                  </li>
+                  <li>
+                    <a href="./favorites.html" class="text-dark fw-bold"
+                      >Favorites</a
+                    >
+                    <sup class="fav-count text-danger fw-bold">0</sup>
+                  </li>
+                </ul>
+              </nav>
+              <div class="products"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-6-------------------------- -->
+    <section id="featuredStories">
+      <div class="container">
+        <div class="featuredStories">
+          <div>
+            <h2 class="text-center">FEATURED STORIES</h2>
+          </div>
+          <div class="fotoCards">
+            <div class="fotoCard">
+              <img src="./assets/images/work_thumb_1.jpg" alt="foto" />
+              <div class="textParent">
+                <div>
+                  <b> +</b>
+                </div>
+                <div>
+                  <p>JANUARY 31,2018</p>
+                </div>
+                <div>
+                  <h4>"Being loved has taught me how to love"</h4>
+                </div>
+              </div>
+            </div>
+            <div class="fotoCard">
+              <img src="./assets/images/work_thumb_2.jpg" alt="foto" />
+              <div class="textParent">
+                <div>
+                  <b> +</b>
+                </div>
+                <div>
+                  <p>JANUARY 31,2018</p>
+                </div>
+                <div>
+                  <h4>"Becoming a perfect parent out of imperfect"</h4>
+                </div>
+              </div>
+            </div>
+            <div class="fotoCard">
+              <img src="./assets/images/work_thumb_3.jpg" alt="foto" />
+              <div class="textParent text3">
+                <div>
+                  <b> +</b>
+                </div>
+                <div>
+                  <p>JANUARY 31,2018</p>
+                </div>
+                <div>
+                  <h4>"Home sweet home"</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-7-------------------------- -->
+    <section id="inputs">
+      <div class="container">
+        <div class="textInput">
+          <h2>GET NEWS & UPDATES</h2>
+          <div class="inputs">
+            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="Your Email" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-8-------------------------- -->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footerLeft">
+            <div>
+              <h5>ABOUT</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Voluptatibus et dolor blanditiis consequuntur ex voluptates
+                <br />
+                perspiciatis omnis unde minima expedita.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <h5>CONTACT & ADDRESS</h5>
+              <p>A: 34 Street Name, City Name Here, United States</p>
+              <p>T: +1 242 4942 290</p>
+              <p>E: info@yourdomain.com</p>
+            </div>
+          </div>
+          <div class="footerRight">
+            <div>
+              <h5>QUICK LINKS</h5>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Success Stories</a>
+                  </li>
+                  <li>
+                    <a href="#">Waiting Children</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms of Use</a>
+                  </li>
+                  <li>
+                    <a href="#">Disclaimers</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <h5>SOCIAL</h5>
+
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
