@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=EB+Garamond:ital,wght@1,400;1,600&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:ital@0;1&family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,500&family=Sacramento&family=Sarabun:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script>
+    <script defer src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <!-- ---------------------------PART-1-------------------------- -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="divLeft">
+            <img src="./assets/images/logo.png" alt="" />
+          </div>
+          <div class="divRight">
+            <nav class="navbar navbar-expand-lg navbar-light navRight">
+              <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Home</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-white"
+                        aria-current="page"
+                        href="#"
+                        >About us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle text-white"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Blog
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="menuIconParent"><i class="fa-solid fa-bars"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ---------------------------PART-2-------------------------- -->
+    <section id="banner">
+      <div class="container">
+        <div class="banner">
+          <div class="bannerLeft">
+            <h1>
+              Improved <br />
+              Production level<br />
+              with Robotics
+            </h1>
+            <p>EVERYONE WANTS THE INNOVATION THROUGH ROBOTICS</p>
+            <button>VIEW DETAILS</button>
+          </div>
+          <div class="bannerRight">
+            <img src="./assets/images/banner-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-3-------------------------- -->
+
+    <!-- BURA API ILE YAZILIR!!!. -->
+    <!-- ---------------------------PART-4-------------------------- -->
+    <section id="ImageAndText">
+      <div class="container">
+        <div class="imgText">
+          <div class="imgLeft">
+            <img src="./assets/images/about-img.png" alt="foto" />
+          </div>
+          <div class="textRight">
+            <h3>
+              Globally Connected <br />
+              by Large Network
+            </h3>
+            <p class="weAre">
+              We are here to listen from you deliver exellence
+            </p>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt <br />
+              ut labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum
+              dolor sit amet, consectetur <br />
+              adipisicing elit, sed do eiusmod tempor.
+            </p>
+            <button>GET DETAILS</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------PART-5-------------------------- -->
+    <section id="textAndVideo">
+      <div class="container">
+        <div class="textVideo">
+          <div class="textDiv">
+            <p class="brand">BRAND NEW APP TO BLOW YOUR MIND</p>
+            <h3>
+              We’ve made a life <br />
+              that will change you
+            </h3>
+            <p class="weAre">We are here to listen from you deliver exellence</p>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+              doeiusmo d <br />
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button>Get Started Now</button>
+          </div>
+          <div class="videoDiv">
+            <img src="./assets/images/video-bg.jpg" alt=""class="img1" />
+            <div class="videoIcon">
+              <img src="./assets/images/play-btn.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

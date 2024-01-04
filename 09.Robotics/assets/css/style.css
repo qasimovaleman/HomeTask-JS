@@ -1,0 +1,225 @@
+/* -------------------PART-1-------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(138, 144, 255, 0.9);
+}
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header a {
+  color: white;
+}
+.navRight {
+  background-color: transparent;
+}
+.menuIconParent {
+  display: none;
+}
+/* --------------------RESPONSIVE------PART-1-------------------- */
+@media screen and(max-width:767px) {
+  .menuIconParent {
+    display: block;
+  }
+  .navRight nav {
+    display: none;
+    color: white;
+  }
+}
+/* -------------------PART-2-------------------- */
+#banner {
+  background-image: url("../images/banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 98vh;
+  background-color: transparent;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner h1 {
+  margin-top: 90px;
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+}
+.banner p {
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+}
+.banner button {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+  background-color: white;
+  width: 140px;
+  height: 45px;
+  border: 1px solid white;
+  transition: all 600ms;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+.banner button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+/* --------------------RESPONSIVE------PART-2-------------------- */
+@media screen and (max-width: 767px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner h1 {
+    margin: 0;
+    font-size: 35px;
+  }
+  .banner button {
+    margin: 15px;
+  }
+}
+/* -------------------PART-4-------------------- */
+#ImageAndText {
+  margin-top: 120px;
+}
+.imgText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+.imgLeft {
+  width: 50%;
+}
+.imgLeft img {
+  width: 100%;
+}
+.textRight {
+  width: 50%;
+}
+.textRight h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #222222;
+}
+.textRight .weAre {
+  font-size: 16px;
+  font-weight: 300;
+  color: #222222;
+}
+.textRight .lorem {
+  font-size: 14px;
+  font-weight: 300;
+  color: #777777;
+}
+.textRight button {
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  transition: all 600ms;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  width: 140px;
+  height: 40px;
+}
+.textRight button:hover {
+  border: 1px solid rgba(138, 144, 255, 0.9);
+  color: #828fff;
+  background-image: -webkit-linear-gradient(white 100%, white);
+}
+/* --------------------RESPONSIVE------PART-4-------------------- */
+@media screen and (max-width: 767px) {
+  .imgText {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .imgLeft {
+    width: 100%;
+  }
+
+  .textRight {
+    width: 100%;
+  }
+}
+/* -------------------PART-5-------------------- */
+#textAndVideo {
+  margin: 80px 0;
+}
+.textVideo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textDiv{
+  width: 50%;
+}
+.textDiv .brand {
+  font-size: 12px;
+  font-weight:300; 
+  color: #8a90ff;
+}
+.textDiv h3{
+  font-size: 36px;
+  font-weight:600; 
+  color: #222222;
+}
+.textDiv .weAre{
+  font-size: 14px;
+  font-weight:600; 
+  color:#222222 ;
+}
+.textDiv .lorem{
+  font-size: 14px;
+  font-weight:300; 
+  color: #777777;
+}
+.textDiv button{
+  font-size: 14px;
+  font-weight:500; 
+  color:white ;
+  transition: all 600ms;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  width: 180px;
+  height: 40px;
+}
+.textDiv button:hover{
+  border: 1px solid rgba(138, 144, 255, 0.9);
+  color: #828fff;
+  background-image: -webkit-linear-gradient(white 100%, white);
+}
+.videoDiv{
+  width: 50%;
+  position: relative;
+}
+.img1{
+  width: 100%;
+}
+.videoIcon{
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
