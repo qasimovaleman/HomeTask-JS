@@ -167,38 +167,38 @@ header {
 #textAndVideo {
   margin: 80px 0;
 }
-.textVideo{
+.textVideo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.textDiv{
+.textDiv {
   width: 50%;
 }
 .textDiv .brand {
   font-size: 12px;
-  font-weight:300; 
+  font-weight: 300;
   color: #8a90ff;
 }
-.textDiv h3{
+.textDiv h3 {
   font-size: 36px;
-  font-weight:600; 
+  font-weight: 600;
   color: #222222;
 }
-.textDiv .weAre{
+.textDiv .weAre {
   font-size: 14px;
-  font-weight:600; 
-  color:#222222 ;
+  font-weight: 600;
+  color: #222222;
 }
-.textDiv .lorem{
+.textDiv .lorem {
   font-size: 14px;
-  font-weight:300; 
+  font-weight: 300;
   color: #777777;
 }
-.textDiv button{
+.textDiv button {
   font-size: 14px;
-  font-weight:500; 
-  color:white ;
+  font-weight: 500;
+  color: white;
   transition: all 600ms;
   cursor: pointer;
   border: 1px solid transparent;
@@ -206,20 +206,281 @@ header {
   width: 180px;
   height: 40px;
 }
-.textDiv button:hover{
+.textDiv button:hover {
   border: 1px solid rgba(138, 144, 255, 0.9);
   color: #828fff;
   background-image: -webkit-linear-gradient(white 100%, white);
 }
-.videoDiv{
+.videoDiv {
   width: 50%;
   position: relative;
 }
-.img1{
+.img1 {
   width: 100%;
 }
-.videoIcon{
+.videoIcon {
   position: absolute;
   top: 200px;
   left: 250px;
 }
+
+/* --------------------RESPONSIVE------PART-5-------------------- */
+@media screen and (max-width: 767px) {
+  .textVideo {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .videoDiv {
+    width: 100%;
+  }
+  .textDiv {
+    width: 100%;
+  }
+}
+/* -------------------PART-6-------------------- */
+#featureBg {
+  background-image: url("../images/feature-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+.textParents {
+  padding-top: 120px;
+}
+
+.textParents h3 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.textParents p {
+  font-weight: 300;
+  font-size: 14px;
+}
+.card-info {
+  background-color: white;
+  width: 32%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.iconInfo {
+  padding: 30px 20px 10px 20px;
+  column-gap: 1rem;
+}
+.iconInfo i {
+  padding-top: 5px;
+}
+.iconInfo h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222222;
+}
+.card-info p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #777777;
+  padding: 10px 20px 35px 20px;
+}
+.infoCardParents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+}
+.card-info:hover .iconInfo i,
+.iconInfo h4 {
+  color: #828fff;
+}
+/* --------------------RESPONSIVE------PART-6-------------------- */
+@media screen and (max-width: 1023px) {
+  .card-info {
+    width: 49%;
+  }
+  .textParents {
+    padding-top: 60px;
+  }
+  #featureBg {
+    height: 140vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card-info {
+    width: 80%;
+  }
+  #featureBg {
+    height: 230vh;
+  }
+}
+/* -------------------PART-7-------------------- */
+#LogosSection {
+  margin: 100px 0;
+}
+.logosDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+}
+.logoDiv {
+  width: 13%;
+}
+.logoDiv img {
+  width: 100%;
+}
+
+/* --------------------RESPONSIVE------PART-7-------------------- */
+
+/* -------------------PART-8-------------------- */
+
+.twoText h3 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #222222;
+}
+.twoText p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 60px;
+}
+.imageTextParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.imageTextCard {
+  width: 49%;
+}
+
+.imageTextCard img {
+  width: 100%;
+}
+.buttonDiv {
+  margin: 20px 0;
+}
+.buttonDiv button {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  transition: all 600ms;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  width: 80px;
+  height: 40px;
+}
+.buttonDiv button:hover {
+  border: 1px solid rgba(138, 144, 255, 0.9);
+  color: #828fff;
+  background-image: -webkit-linear-gradient(white 100%, white);
+}
+.imageTextCard h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222222;
+}
+.imageTextCard p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #777777;
+}
+.imageTextCard span {
+  font-weight: 300;
+  font-size: 14px;
+  color: #222222;
+}
+/* --------------------RESPONSIVE------PART-8-------------------- */
+@media screen and (max-width: 767px) {
+  .imageTextParent {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .imageTextCard {
+    width: 100%;
+  }
+}
+/* -------------------PART-9-------------------- */
+
+.lastSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
+#footerbg {
+  background-image: url("../images/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.lastSection h4,
+.lastSection a,
+.lastSection p {
+  color: white;
+}
+.lastSection a {
+  text-decoration: none;
+}
+.lastSection li {
+  margin: 12px 0;
+}
+.top {
+  padding-left: 25px;
+}
+.lastSection input {
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-right: 20px;
+}
+.lastSection button {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  transition: all 600ms;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+.lastSection button:hover {
+  border: 1px solid rgba(138, 144, 255, 0.9);
+  color: #828fff;
+  background-image: -webkit-linear-gradient(white 100%, white);
+}
+.miniCardParent {
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.divCenter p {
+  margin: 45px 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.icons {
+  column-gap: 1rem;
+}
+.icons i {
+  background-color: black;
+  padding: 12px;
+  transition: all 600ms;
+  border: 1px solid transparent;
+}
+.icons i:hover {
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+/* --------------------RESPONSIVE------PART-9-------------------- */
