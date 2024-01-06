@@ -1,0 +1,32 @@
+{
+  "robotics": [
+    {
+      "id": 1,
+      "imageUrl": "https://preview.colorlib.com/theme/robotics/img/p1.png",
+      "name": "The Upper Eye",
+      "description": "Who are in extremely love with eco friendly system.",
+      "text": "This is Robotics website.."
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://preview.colorlib.com/theme/robotics/img/p2.png",
+      "name": "The Crab Wheel",
+      "description": "Who are in extremely love with eco friendly system.",
+      "text": "This is Robotics website.."
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://preview.colorlib.com/theme/robotics/img/p3.png",
+      "name": "The Plug Ninja",
+      "description": "Who are in extremely love with eco friendly system.",
+      "text": "This is Robotics website.."
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://preview.colorlib.com/theme/robotics/img/p4.png",
+      "name": "The Controller",
+      "description": "Who are in extremely love with eco friendly system.",
+      "text": "This is Robotics website.."
+    }
+  ]
+}
