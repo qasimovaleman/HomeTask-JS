@@ -45,7 +45,7 @@ function drawCards(data) {
          <p class="card-text">${element.author}</p>
           <div class="btns">
            <button class="Delete" onclick=deleteBtn(${element.id},this)>Delete</button>
-              <a  href="./form.html?id=${element.id}"  class="edit" >Edit</a>
+              <a  href="./newblog.html?id=${element.id}"  class="edit" >Edit</a>
           </div>
         </div>
       </div>
@@ -56,9 +56,16 @@ function drawCards(data) {
 //
 //
 
-async function deleteBtn(id, btn) {
-  if (confirm("are u sure to delete blogs??")) {
-    btn.parentElement.parentElement.parentElement.remove();
-    await axios.delete(`${BASE_URL}/blogs/${id}`);
-  }
+async function deleteBtn(id,) {
+  fetch(`${BASE_URL}/blogs/${id}`, {
+    method: "DELETE",
+  }).then(() => {
+    fetch(`${BASE_URL}/blogs`)
+      .then((response) => response.json())
+      .then((data) => {
+        // console.log(data);
+        drawCards(data);
+      })
+      .catch((err) => console.log(err));
+  });
 }
