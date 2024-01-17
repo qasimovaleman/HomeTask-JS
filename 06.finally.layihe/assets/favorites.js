@@ -11,9 +11,10 @@ function drawCards(data) {
   data.forEach((element) => {
     const productCardElement = document.createElement("div");
     productCardElement.className = "product-card";
+    //
     const productTitleDivElement = document.createElement("div");
     productTitleDivElement.className = "product-card-title";
-
+    //
     const productNameElement = document.createElement("h3");
     productNameElement.textContent = element.name;
     const favIconElement = document.createElement("i");
@@ -25,7 +26,6 @@ function drawCards(data) {
     const productPriceElement = document.createElement("p");
     productPriceElement.innerHTML = `Price: <b>$ ${element.price}</b>`;
 
-    
     const productImageElement = document.createElement("img");
 
     productImageElement.src = element.imageUrl;

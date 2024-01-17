@@ -1,0 +1,53 @@
+{
+  "shopcard": [
+    {
+      "id": "1",
+      "imageUrl": "https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://preview.colorlib.com/theme/selling/images/model_2_bg.jpg",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://preview.colorlib.com/theme/selling/images/model_3_bg.jpg",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://preview.colorlib.com/theme/selling/images/model_4_bg.jpg",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "5",
+      "imageUrl": "https://preview.colorlib.com/theme/selling/images/model_5_bg.jpg",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "6",
+      "imageUrl": "https://preview.colorlib.com/theme/selling/images/product_1_bg.jpg",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "577c",
+      "title": "kanan",
+      "description": "amirov",
+      "image": "./assets/img/hero_2.jpg",
+      "imageUrl": "./assets/img/logo.jpg"
+    },
+    {
+      "id": "9d2e",
+      "title": "leman",
+      "description": "123",
+      "imageUrl": "./assets/img/hero_2.jpg"
+    }
+  ]
+}
