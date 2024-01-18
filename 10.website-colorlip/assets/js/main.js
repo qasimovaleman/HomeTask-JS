@@ -41,12 +41,17 @@ function drawCards(data) {
     const productDescriptionElement = document.createElement("p");
     productDescriptionElement.textContent = element.description;
     productDescriptionElement.className = "product-description";
-
+    ////
+    const productDetailsButtonElement = document.createElement("a");
+    productDetailsButtonElement.className = "details-button";
+    productDetailsButtonElement.textContent = "View";
+    productDetailsButtonElement.href=`details.html?id=${element.id}`
     ////////////////////////////////////////
     productCardElement.append(
       productImageElement,
       productTitleElement,
-      productDescriptionElement
+      productDescriptionElement,
+      productDetailsButtonElement
     );
     productCardLists.append(productCardElement);
   });

@@ -62,7 +62,7 @@ form.addEventListener("submit", async function (e) {
     await axios.patch(`${BASE_URL}/shopcard/${editId}`, obj);
   }
 });
-/////
+///////////////////////////////////////////////////////////
 async function editBtn(id) {
   editId = id;
   const response = await axios(`${BASE_URL}/shopcard/${id}`);
